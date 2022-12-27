@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14523" started-at="2020-11-21T19:26:53 IST" finished-at="2020-11-21T19:27:07 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14523" started-at="2020-11-21T19:26:53 IST" finished-at="2020-11-21T19:27:07 IST">
+      <class name="TestScripts.GenerateAuthTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestScripts.GenerateAuthTests@1563da5]" name="setUp" is-config="true" duration-ms="582" started-at="2020-11-21T19:26:52 IST" finished-at="2020-11-21T19:26:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGenerateTOken()[pri:0, instance:TestScripts.GenerateAuthTests@1563da5]" name="testGenerateTOken" duration-ms="8054" started-at="2020-11-21T19:26:53 IST" finished-at="2020-11-21T19:27:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGenerateTOken -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestScripts.GenerateAuthTests@1563da5]" name="tearDown" is-config="true" duration-ms="726" started-at="2020-11-21T19:27:08 IST" finished-at="2020-11-21T19:27:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestScripts.GenerateAuthTests -->
+      <class name="TestScripts.CreateBookingTests">
+        <test-method status="PASS" signature="createBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.CreateBookingTests@2bbf4b8b]" name="createBooking" duration-ms="1629" started-at="2020-11-21T19:27:03 IST" data-provider="getDataForCreateBooking" finished-at="2020-11-21T19:27:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahajan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[lunch]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Happy Path]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method status="PASS" signature="createBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.CreateBookingTests@2bbf4b8b]" name="createBooking" duration-ms="1613" started-at="2020-11-21T19:27:04 IST" data-provider="getDataForCreateBooking" finished-at="2020-11-21T19:27:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[arora]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[222]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[dinner]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Negative Path]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+        <test-method status="PASS" signature="createBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestScripts.CreateBookingTests@2bbf4b8b]" name="createBooking" duration-ms="1630" started-at="2020-11-21T19:27:06 IST" data-provider="getDataForCreateBooking" finished-at="2020-11-21T19:27:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amod]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahajan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2018-01-01]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[breakfast]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Happy Path]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBooking -->
+      </class> <!-- TestScripts.CreateBookingTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
